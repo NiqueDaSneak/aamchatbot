@@ -1,0 +1,49 @@
+{
+    "welcomeMessage": {
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum commodo diam",
+        "options": ["New Hires", "Creative 101"]
+    },
+    "Main Menu": {
+          "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque interdum commodo diam",
+          "options": ["New Hires", "Creative 101"]
+      },
+    "New Hires": {
+        "message": "Duis scelerisque mollis mauris, vitae varius nibh malesuada vitae.",
+        "options": ["Joe Bloe", "Jane Doe", "Rick James", "Becky Guudhare"]
+    },
+    "Back to names": {
+        "message": "Duis scelerisque mollis mauris, vitae varius nibh malesuada vitae.",
+        "options": ["Joe Bloe", "Jane Doe", "Rick James", "Becky Guudhare"]
+    },
+    "Creative 101": {
+        "message": "Would you like to know more?",
+        "options": ["Yes", "No"]
+    },
+    "Yes": {
+        "message": "Type your last name only and we will send more to you:"
+    },
+    "No": {
+        "message": "Why don’t you want to learn more?",
+        "options": ["Option 1", "Option 2", "Option 3"]
+    },
+    "Joe Bloe": {
+      "message": "testing",
+      "options": ["Back to names", "Main Menu"],
+      "gif": "giphy.gif"
+    },
+    "Jane Doe": {
+      "message": "testing",
+      "options": ["Back to names", "Main Menu"],
+      "gif": "giphy.gif"
+    },
+    "Rick James": {
+      "message": "testing",
+      "options": ["Back to names", "Main Menu"],
+      "gif": "giphy.gif"
+    },
+    "Becky Guudhare": {
+      "message": "testing",
+      "options": ["Back to names", "Main Menu"],
+      "gif": "giphy.gif"
+    }
+}
