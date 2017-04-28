@@ -1,13 +1,9 @@
 $(document).ready(() => {
-  var socket = io.connect();
+    var socket = io.connect();
 
-   $('.main-content').fadeIn(200)
-   .promise()
-   .done(() => {
-     socket.emit('welcomeMessage')
-   })
+    socket.emit('welcomeMessage')
 
-   socket.on('botMessage', (data) => {
+    socket.on('botMessage', (data) => {
         $('.messages').prepend("<p class='bot-message'>" + data.data + "</p>").hide().fadeIn('slow');
     })
 
@@ -17,11 +13,40 @@ $(document).ready(() => {
         }
     })
 
+    socket.on('gif', (data) => {
+      console.log(data.data);
+      $('.messages').prepend("<img src='imgs/" + data.data + "' alt='GIF'>")
+    })
+
     $('.btns').click(() => {
-        socket.emit('menuRequest', {data: event.target.value})
+        if (event.target.value === "Yes") {
+            socket.emit('menuRequest', {data: event.target.value})
+            $('input').css('left', '0').promise().done(() => {
+                setTimeout(() => {
+                    $('.send').css('right', '6vw')
+                }, 2000)
+            })
+        } else if (event.target.value === "Option 1") {
+          socket.emit('vote', {data: 'option1'})
+        } else if (event.target.value === "Option 2") {
+          socket.emit('vote', {data: 'option2'})
+        } else if (event.target.value === "Option 3") {
+          socket.emit('vote', {data: 'option3'})
+        } else {
+            socket.emit('menuRequest', {data: event.target.value})
+        }
         $('.btns').empty()
         $('.messages').empty()
     })
 
-   // end of DOM ready
+    $('.send').click(() => {
+        $('.messages').empty()
+        $('input').css('left', '-88vw')
+        $('.send').css('right', '-22vw').promise().done(() => {
+            socket.emit('saveNames', {name: $('input').val()})
+        })
+
+    })
+
+    // end of DOM ready
 })
