@@ -1,37 +1,37 @@
 {
-  "name": "aamchatbot",
-  "version": "1.0.0",
-  "description": "A chatbot for the AAM May 5th.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NiqueDaSneak/aamchatbot.git"
-  },
-  "keywords": [
-    "chat",
-    "bot"
-  ],
-  "author": "niquedasneak",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/NiqueDaSneak/aamchatbot/issues"
-  },
-  "homepage": "https://github.com/NiqueDaSneak/aamchatbot#readme",
-  "dependencies": {
-    "diskdb": "^0.1.17",
-    "express": "^4.15.2",
-    "pug": "^2.0.0-beta.12",
-    "socket.io": "^1.7.3"
-  },
-  "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "gulp": "^3.9.1",
-    "gulp-html2pug": "0.0.2",
-    "gulp-postcss": "^6.4.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-util": "^3.0.8"
-  }
+    "name": "aamchatbot",
+    "version": "1.0.0",
+    "description": "A chatbot for the AAM May 5th.",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NiqueDaSneak/aamchatbot.git"
+    },
+    "keywords": [
+        "chat",
+        "bot"
+    ],
+    "author": "niquedasneak",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/NiqueDaSneak/aamchatbot/issues"
+    },
+    "homepage": "https://github.com/NiqueDaSneak/aamchatbot#readme",
+    "dependencies": {
+        "diskdb": "^0.1.17",
+        "express": "^4.15.2",
+        "pug": "^2.0.0-beta.12",
+        "socket.io": "^1.7.3"
+    },
+    "devDependencies": {
+        "autoprefixer": "^6.7.7",
+        "gulp": "^3.9.1",
+        "gulp-html2pug": "0.0.2",
+        "gulp-postcss": "^6.4.0",
+        "gulp-sass": "^3.1.0",
+        "gulp-util": "^3.0.8"
+    }
 }
