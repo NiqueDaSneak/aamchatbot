@@ -16,7 +16,28 @@ app.get('/', (req, res) => {
     res.render('index')
 })
 
-io.on('connection', (socket) => {})
+io.on('connection', (socket) => {
+    console.log('Socket w/ client successful')
+
+    socket.on('welcomeMessage', () => {
+        socket.emit('botMessage', {data: db.welcomeMessage.message})
+        var menuButtons = function() {
+            return socket.emit('menuButtons', {data: db.welcomeMessage.options})
+        }
+        setTimeout(menuButtons, 1200)
+    })
+
+    socket.on('menuRequest', (data) => {
+      console.log(data.data);
+        socket.emit('botMessage', {
+            data: db[data.data].message
+        })
+        socket.emit('menuButtons', {
+            data: db[data.data].options
+        })
+    })
+
+})
 
 var port = process.env.PORT || 3000
 server.listen(port, () => {
