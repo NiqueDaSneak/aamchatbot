@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="yes-want-to-know-more" transform="translate(-642.000000, -1270.000000)" stroke="#979797" fill="#FFFFFF">
+            <g id="Group-6" transform="translate(0.000000, 70.000000)">
+                <g id="Group" transform="translate(42.000000, 1193.000000)">
+                    <g id="ic-send-border" transform="translate(595.000000, 2.000000)">
+                        <g id="ic_send">
+                            <path d="M11.3761547,6.30923762 L62.3032947,31.1167052 C66.0100129,32.9235797 66.0100129,38.0771532 62.3032947,39.8828026 L11.3761547,64.6902702 C8.86770727,65.9128199 5.91666667,64.1353454 5.91666667,61.4035962 L8.0868823,43.2846266 C8.2893184,41.5941271 9.65733382,40.2601025 11.3925004,40.0604276 L38.2511192,37.3274534 C40.5055785,37.0983784 40.5055785,33.9011294 38.2511192,33.6720545 L11.3925004,30.9390803 C9.65733382,30.7406303 8.2893184,29.4066057 8.0868823,27.7148812 L5.91666667,9.59591164 C5.91666667,6.86416245 8.86770727,5.08791298 11.3761547,6.30923762" id="icon"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

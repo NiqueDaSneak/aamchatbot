@@ -8,12 +8,28 @@
     height: 10vh;
     font-size: 6vw; }
 
-body {
-  margin: 0; }
+input[type='text'] {
+  position: fixed;
+  bottom: 0;
+  left: -88vw;
+  background-color: #FFFFFF;
+  font-size: 6vw;
+  border: .1vw solid #979797;
+  color: #BCBCBC;
+  padding: 2vh 2vw 2vh 7vw;
+  border-radius: 0vw 10px 10px 0vw;
+  transition: left .8s; }
 
-.main-content {
-  display: none;
-  height: 100vh; }
+.send {
+  position: fixed;
+  bottom: 1vh;
+  right: -22vw;
+  height: 7vh;
+  transition: right .3s; }
+
+body {
+  margin: 0;
+  background-color: #D0D0D0; }
 
 header {
   background-color: grey;
