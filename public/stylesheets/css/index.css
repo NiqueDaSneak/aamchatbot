@@ -24,8 +24,7 @@ input[type='text'] {
   transition: bottom .8s;
   width: 60vw;
   text-align: center;
-  box-shadow: inset 5px 4px 5px 0px #D1D0D1;
-  z-index: -1; }
+  box-shadow: inset 5px 4px 5px 0px #D1D0D1; }
   input[type='text']::-webkit-input-placeholder {
     color: #d1d1d1; }
   input[type='text']:-ms-input-placeholder {
