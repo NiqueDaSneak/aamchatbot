@@ -1,12 +1,16 @@
 .btns {
   position: fixed;
-  bottom: 0vh; }
+  bottom: 4vh;
+  left: 10vw; }
   .btns button {
     display: block;
-    width: 100vw;
-    background-color: grey;
-    height: 10vh;
-    font-size: 6vw; }
+    width: 80vw;
+    background-color: white;
+    height: 7vh;
+    color: #0084FF;
+    border: none;
+    font-size: 5vw;
+    margin-bottom: 2vh; }
 
 input[type='text'] {
   position: fixed;
@@ -28,10 +32,11 @@ input[type='text'] {
   height: 7vh;
   transition: right .3s; }
 
+.header {
+  width: 100vw; }
+
 body {
   margin: 0;
-  background-color: #D0D0D0; }
-
-header {
-  background-color: grey;
-  height: 14vh; }
+  background: linear-gradient(#FFFFFF, #F0EDF2);
+  font-family: 'Heebo', sans-serif;
+  height: 100vh; }
