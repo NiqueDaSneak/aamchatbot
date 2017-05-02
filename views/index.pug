@@ -5,12 +5,13 @@ html
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width,initial-scale=1')
     title AAM ChatBot
+    link(href='https://fonts.googleapis.com/css?family=Heebo:400,900', rel='stylesheet')
     script(src='/socket.io/socket.io.js')
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js')
     link(rel='stylesheet', href='stylesheets/css/index.css')
     script(type='text/javascript', src='js/index.js')
   body
-    header
+    img.header(src='imgs/header.png', alt='Header')
     .messages
     .btns
     input(type='text', name='', placeholder='Last Name Only')
