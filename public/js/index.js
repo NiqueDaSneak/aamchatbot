@@ -19,11 +19,11 @@ $(document).ready(() => {
     })
 
     $('.btns').click(() => {
-        if (event.target.value === "Yes") {
+        if (event.target.value === "Hell Yeah") {
             socket.emit('menuRequest', {data: event.target.value})
-            $('input').css('left', '0').promise().done(() => {
+            $('input').css('bottom', '44vh').promise().done(() => {
                 setTimeout(() => {
-                    $('.send').css('right', '6vw')
+                    $('.send').css('right', '4vw')
                 }, 2000)
             })
         } else if (event.target.value === "Option 1") {

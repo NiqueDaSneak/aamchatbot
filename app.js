@@ -31,7 +31,7 @@ io.on('connection', (socket) => {
 
     socket.on('menuRequest', (data) => {
         switch (data.data) {
-            case "Yes":
+            case "":
               socket.emit('botMessage', {
                 data: content[data.data].message
               })
