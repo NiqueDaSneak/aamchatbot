@@ -23,15 +23,15 @@ $(document).ready(() => {
             socket.emit('menuRequest', {data: event.target.value})
             $('input').css('bottom', '44vh').promise().done(() => {
                 setTimeout(() => {
-                    $('.send').css('right', '4vw')
+                    $('.send').css('right', '6vw')
                 }, 2000)
             })
-        } else if (event.target.value === "Option 1") {
-          socket.emit('vote', {data: 'option1'})
-        } else if (event.target.value === "Option 2") {
-          socket.emit('vote', {data: 'option2'})
-        } else if (event.target.value === "Option 3") {
-          socket.emit('vote', {data: 'option3'})
+        } else if (event.target.value === "I Already Know This Stuff") {
+          socket.emit('vote', {data: 'I Already Know This Stuff'})
+        } else if (event.target.value === "I Am Uninterested") {
+          socket.emit('vote', {data: 'I Am Uninterested'})
+        } else if (event.target.value === "THE ACCOUNT TEAM RULES!!") {
+          socket.emit('vote', {data: 'THE ACCOUNT TEAM RULES!!'})
         } else {
             socket.emit('menuRequest', {data: event.target.value})
         }
@@ -43,7 +43,7 @@ $(document).ready(() => {
         $('.messages').empty()
         $('input').css('left', '-88vw')
         $('.send').css('right', '-22vw').promise().done(() => {
-            socket.emit('saveNames', {name: $('input').val()})
+            socket.emit('saveNames', {email: $('input').val()})
         })
 
     })

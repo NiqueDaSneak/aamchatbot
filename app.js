@@ -30,12 +30,24 @@ io.on('connection', (socket) => {
     })
 
     socket.on('menuRequest', (data) => {
+      console.log(data.data);
         switch (data.data) {
-            case "":
+
+            case "Hell Yeah":
               socket.emit('botMessage', {
                 data: content[data.data].message
               })
               break;
+
+            case "Nope I Am Good":
+              socket.emit('botMessage', {
+                data: content[data.data].message
+              })
+              socket.emit('menuButtons', {
+                data: content[data.data].options
+              })
+              break;
+
             default:
               if (content[data.data].gif) {
                 console.log('you clicked a person!')
@@ -47,26 +59,40 @@ io.on('connection', (socket) => {
               socket.emit('menuButtons', {
                 data: content[data.data].options
               })
+              break;
         }
     })
     socket.on('saveNames', (data) => {
         var respondant = {
-            name: data.name,
+            name: data.email,
             saved: new Date()
         }
         db.names.save(respondant)
-        console.log('Person saved!')
-        socket.emit('botMessage', {data: "Thank You, please choose an option"})
-        socket.emit('menuButtons', {data: ["New Hires", "Creative 101"]})
+        console.log('Email saved!')
+        socket.emit('botMessage', {data: "thanks. check your email after the presentation to discover more about the creative discipline."})
+        socket.emit('botMessage', {data: "*beep beep bi bi boop*"})
+        // var delay = function() { socket.emit('botMessage', {data: "thanks. check your email after the presentation to discover more about the creative discipline."}) }
+        //   setTimeout(delay, 1800)
+        socket.emit('menuButtons', {data: ["Back to New Hires", "Creative 101"]})
     })
 
     socket.on('vote', (data) => {
       var vote = {
         time: new Date()
       }
-      db[data.data].save(vote)
-      socket.emit('botMessage', {data: "Thank You, please choose an option"})
-      socket.emit('menuButtons', {data: ["New Hires", "Creative 101"]})
+      if (data.data === "I Already Know This Stuff") {
+        db.option1.save(vote)
+
+      }
+      if (data.data === "I Am Uninterested") {
+        db.option2.save(vote)
+      }
+
+      if (data.data === "THE ACCOUNT TEAM RULES!!") {
+        db.option3.save(vote)
+      }
+      socket.emit('botMessage', {data: "thanks for your feedback. come back later if you change your mind."})
+      socket.emit('menuButtons', {data: ["Meet the New Hires", "Creative 101"]})
     })
 })
 
