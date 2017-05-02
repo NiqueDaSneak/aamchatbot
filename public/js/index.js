@@ -19,11 +19,12 @@ $(document).ready(() => {
     })
 
     $('.btns').click(() => {
+      console.log([event.target.value]);
         if (event.target.value === "Hell Yeah") {
             socket.emit('menuRequest', {data: event.target.value})
-            $('input').css('bottom', '44vh').promise().done(() => {
+            $('input').css('bottom', '2vh').promise().done(() => {
                 setTimeout(() => {
-                    $('.send').css('right', '6vw')
+                    $('.send').css('right', '2vw')
                 }, 2000)
             })
         } else if (event.target.value === "I Already Know This Stuff") {
@@ -41,7 +42,7 @@ $(document).ready(() => {
 
     $('.send').click(() => {
         $('.messages').empty()
-        $('input').css('left', '-88vw')
+        $('input').css('bottom', '-88vw')
         $('.send').css('right', '-22vw').promise().done(() => {
             socket.emit('saveNames', {email: $('input').val()})
         })
