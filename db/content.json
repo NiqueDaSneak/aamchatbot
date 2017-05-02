@@ -1,64 +1,64 @@
 {
     "welcomeMessage": {
-        "message": "Hello there! Please choose one of the following engagement exercises to enhance your AAM experience.",
-        "options": ["New Toes", "Creative 101"]
+        "message": "greetings. my name is Toe-B. thanks for attending the all agency meeting. choose an option below to begin a meaningful face-to-phone interaction.",
+        "options": ["Meet the New Hires", "Creative 101"]
     },
-    "Main Menu": {
+    "Back To Main Menu": {
           "message": "Hello there! Please choose one of the following engagement exercises to enhance your AAM experience.",
-          "options": ["New Toes", "Creative 101"]
+          "options": ["Meet the New Hires", "Creative 101"]
       },
-    "New Toes": {
-        "message": "Here are the newest toes. After the meeting be sure to engage them in small talk over a grilled chicken taco.",
+    "Meet the New Hires": {
+        "message": "here are the newest toes. be sure to engage them in small talk over a soft chicken taco after the meeting.",
         "options": ["Cody Young", "Hannah Miller", "Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor"]
     },
-    "Back to names": {
-        "message": "Duis scelerisque mollis mauris, vitae varius nibh malesuada vitae.",
+    "Back to New Hires": {
+        "message": "here are the newest toes. be sure to engage them in small talk over a soft chicken taco after the meeting.",
         "options": ["Cody Young", "Hannah Miller", "Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor"]
     },
     "Creative 101": {
-        "message": "Are you down to learn more about the creative discipline?",
-        "options": ["Hell Yeah", "Nope I'm Good"]
+        "message": "would you like to learn more about the creative discipline?",
+        "options": ["Hell Yeah", "Nope I Am Good"]
     },
     "Hell Yeah": {
-        "message": "Enter your email to learn more."
+        "message": "please enter your email"
     },
-    "Nope I'm Good": {
-        "message": "Wait WHAT. ARE YOU SURE?? Tell me why below.",
-        "options": ["I Already Know This Stuff", "I'm Uninterested", "THE ACCOUNT TEAM RULES!!"]
+    "Nope I Am Good": {
+        "message": "what... ARE YOU SURE?? tell me why below.",
+        "options": ["I Already Know This Stuff", "I Am Uninterested", "THE ACCOUNT TEAM RULES!!"]
     },
     "Cody Young": {
-      "message": "Say hey to Cody Young. Hit him up for hoops on sunday mornings.",
-      "options": ["Back to names", "Main Menu"],
+      "message": "say hello to cody young.  catch him tossing a ball at a hoop on sundays.",
+      "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Hannah Miller": {
-      "message": "This is Hannah Miller. Do not be chicken, set up a 1:1.",
-      "options": ["Back to names", "Main Menu"],
+      "message": "this is hannah miller. don’t be chicken, set up a 1:1. ",
+      "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Christian Jaekle": {
-      "message": "Introduce your bad self to Christian Jaekle. Catch his next startup idea at the water cooler.",
-      "options": ["Back to names", "Main Menu"],
+      "message": "introduce yourself to christian jaekle. catch his next startup idea at the water cooler.",
+      "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Cynthia Marcinek": {
-      "message": "This is Cynthia Marcinek. Did you know most femurs are 65x stronger than concrete?",
-      "options": ["Back to names", "Main Menu"],
+      "message": "this is cynthia marcinek. did you know femurs are 65x stronger than concrete?",
+      "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Alyssa Benson": {
-      "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
-      "options": ["Back to names", "Main Menu"],
+      "message": "say hi to alyssa benson. she is one of our design team’s rising stars.",
+      "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Mack Favors": {
       "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
-      "options": ["Back to names", "Main Menu"],
+      "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Andrew Grosvenor": {
       "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
-      "options": ["Back to names", "Main Menu"],
+      "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     }
 }
