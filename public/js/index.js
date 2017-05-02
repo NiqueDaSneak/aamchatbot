@@ -4,7 +4,7 @@ $(document).ready(() => {
     socket.emit('welcomeMessage')
 
     socket.on('botMessage', (data) => {
-        $('.messages').prepend("<p class='bot-message'>" + data.data + "</p>").hide().fadeIn('slow');
+        $('.messages').prepend("<div class='bot-message'><img src='imgs/logo.png' alt='BotLogo'><span class='bot-text'>" + data.data + "</span></div>").hide().fadeIn('slow');
     })
 
     socket.on('menuButtons', (data) => {
