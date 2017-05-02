@@ -1,6 +1,6 @@
 .btns {
   position: fixed;
-  bottom: 4vh;
+  bottom: 01vh;
   left: 10vw; }
   .btns button {
     display: block;
@@ -10,7 +10,7 @@
     color: #0084FF;
     border: none;
     font-size: 5vw;
-    margin-bottom: 2vh; }
+    margin-top: 2vh; }
 
 input[type='text'] {
   position: fixed;
