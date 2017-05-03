@@ -20,7 +20,7 @@
         "options": ["Hell Yeah", "Nope I Am Good"]
     },
     "Hell Yeah": {
-        "message": "please enter your last"
+        "message": "please enter your last name"
     },
     "Nope I Am Good": {
         "message": "what... ARE YOU SURE?? tell me why below.",
