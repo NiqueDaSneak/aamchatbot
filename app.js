@@ -69,10 +69,10 @@ io.on('connection', (socket) => {
         }
         db.names.save(respondant)
         console.log('Email saved!')
-        socket.emit('botMessage', {data: "thanks. check your email after the presentation to discover more about the creative discipline."})
         socket.emit('botMessage', {data: "*beep beep bi bi boop*"})
-        // var delay = function() { socket.emit('botMessage', {data: "thanks. check your email after the presentation to discover more about the creative discipline."}) }
-        //   setTimeout(delay, 1800)
+          setTimeout(() => {
+            socket.emit('botMessage', {data: "thanks. check your email after the presentation to discover more about the creative discipline."})
+          }, 1800)
         socket.emit('menuButtons', {data: ["Back to New Hires", "Creative 101"]})
     })
 
