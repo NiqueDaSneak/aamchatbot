@@ -64,3 +64,12 @@ body {
   background: linear-gradient(#FFFFFF, #F0EDF2);
   font-family: 'Heebo', sans-serif;
   height: 100vh; }
+
+.cover {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  text-align: center; }
+  .cover p {
+    color: white;
+    padding-top: 50vh; }
