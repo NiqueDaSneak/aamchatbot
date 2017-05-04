@@ -42,7 +42,7 @@ input[type='text'] {
 
 .header {
   width: 100vw;
-  height: 12vh; }
+  height: 0vh; }
 
 .messages {
   padding-top: 3vh;
