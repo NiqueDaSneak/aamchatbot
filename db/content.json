@@ -34,47 +34,38 @@
         "options": ["I Already Know This Stuff", "I Am Uninterested", "THE ACCOUNT TEAM RULES!!"]
     },
     "Cody Young": {
-      "message": "say hello to cody young.  catch him tossing a ball at a hoop on sundays.",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "cody.jpg"
     },
     "Hannah Miller": {
-      "message": "this is hannah miller. don’t be chicken, set up a 1:1. ",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "hannah.jpg"
     },
     "Christian Jaekle": {
-      "message": "introduce yourself to christian jaekle. catch his next startup idea at the water cooler.",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "christian.jpg"
     },
     "Cynthia Marcinek": {
-      "message": "this is cynthia marcinek. did you know femurs are 65x stronger than concrete?",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "cynthia.jpg"
     },
     "Alyssa Benson": {
-      "message": "say hi to alyssa benson. she is one of our design team’s rising stars.",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "alyssa.jpg"
     },
     "Mack Favors": {
-      "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Andrew Grosvenor": {
-      "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Sean Cloonan": {
-      "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     },
     "Caleb Ritter": {
-      "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
     }
