@@ -56,8 +56,8 @@ input[type='text'] {
           flex-direction: column-reverse; }
 
 .new-hire-img {
-  width: 62vw;
-  padding-left: 19vw;
+  width: 90vw;
+  padding-left: 5vw;
   padding-top: 2vh; }
 
 .bot-message img {
