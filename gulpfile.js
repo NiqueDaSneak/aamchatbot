@@ -23,8 +23,8 @@ gulp.task('pug', function() {
 });
 
 gulp.task('watch', function(){
-  gulp.watch('views/*.html', ['pug'])
+  // gulp.watch('views/*.html', ['pug'])
   gulp.watch('public/stylesheets/sass/*.sass', ['sass'])
 })
 
-gulp.task('default', ['watch', 'sass', 'pug'])
+gulp.task('default', ['watch', 'sass'])

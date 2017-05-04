@@ -1,9 +1,8 @@
-
 doctype html
 html
   head
     meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width,initial-scale=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
     title AAM ChatBot
     link(href='https://fonts.googleapis.com/css?family=Heebo:400,900', rel='stylesheet')
     script(src='/socket.io/socket.io.js')
@@ -11,9 +10,11 @@ html
     link(rel='stylesheet', href='stylesheets/css/index.css')
     script(type='text/javascript', src='js/index.js')
   body
-    img.header(src='imgs/header.png', alt='Header')
+    .hide-orientation.display-none
+      img(src='imgs/logo.png', alt='')
     .messages
     .btns
-    input(type='text', name='', placeholder='Last Name Only')
+    |  
+    input(type='text', name='', placeholder='Last Name Only', value='')
     |  
     img.send(src='imgs/send.svg', alt='Send Button')
