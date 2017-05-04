@@ -31,6 +31,7 @@ $(document).ready(() => {
     socket.emit('welcomeMessage')
 
     socket.on('botMessage', (data) => {
+      console.log(data.data);
         $('.messages').append("<div class='bot-message'><img src='imgs/logo.png' alt='BotLogo'><span class='bot-text'>" + data.data + "</span></div>").hide().fadeIn('slow');
     })
 
@@ -42,24 +43,24 @@ $(document).ready(() => {
 
     socket.on('gif', (data) => {
       console.log(data.data);
-      $('.messages').prepend("<img src='imgs/" + data.data + "' alt='GIF'>")
+      $('.messages').prepend("<img class='new-hire-img' src='imgs/" + data.data + "' alt='GIF'>")
     })
 
     $('.btns').click(() => {
       console.log([event.target.value]);
-        if (event.target.value === "Hell Yeah") {
+        if (event.target.value === "Creative 101") {
             socket.emit('menuRequest', {data: event.target.value})
             $('input').css('bottom', '2vh').promise().done(() => {
                 setTimeout(() => {
                     $('.send').css('right', '2vw')
                 }, 2000)
             })
-        } else if (event.target.value === "I Already Know This Stuff") {
-          socket.emit('vote', {data: 'I Already Know This Stuff'})
-        } else if (event.target.value === "I Am Uninterested") {
-          socket.emit('vote', {data: 'I Am Uninterested'})
-        } else if (event.target.value === "THE ACCOUNT TEAM RULES!!") {
-          socket.emit('vote', {data: 'THE ACCOUNT TEAM RULES!!'})
+        // } else if (event.target.value === "I Already Know This Stuff") {
+        //   socket.emit('vote', {data: 'I Already Know This Stuff'})
+        // } else if (event.target.value === "I Am Uninterested") {
+        //   socket.emit('vote', {data: 'I Am Uninterested'})
+        // } else if (event.target.value === "THE ACCOUNT TEAM RULES!!") {
+        //   socket.emit('vote', {data: 'THE ACCOUNT TEAM RULES!!'})
         } else {
             socket.emit('menuRequest', {data: event.target.value})
         }
