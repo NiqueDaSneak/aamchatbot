@@ -1,7 +1,8 @@
 .btns {
   position: fixed;
   bottom: 01vh;
-  left: 10vw; }
+  left: 10vw;
+  z-index: 0; }
   .btns button {
     display: block;
     width: 80vw;
@@ -88,3 +89,18 @@ body {
   .cover p {
     color: white;
     padding-top: 50vh; }
+
+.hide-orientation {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: absolute; }
+  .hide-orientation img {
+    position: fixed;
+    top: 50vh;
+    width: 30vw;
+    left: 35vw; }
+
+.display-none {
+  display: none; }

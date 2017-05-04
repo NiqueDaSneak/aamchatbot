@@ -23,8 +23,20 @@ $(document).ready(() => {
 
   if (!isMobile.any()) {
     $('body').empty().append("<div class='cover'><p>Please view this on a mobile device only</p></div>")
-
   }
+
+  $(window).on("orientationchange", (event) => {
+    console.log("The orientation has changed!")
+    if (window.orientation === 90) {
+      // $('.hide-orientation').removeClass('display-none')
+      $('.hide-orientation').fadeIn()
+    }
+
+    if (window.orientation === 0) {
+        // $('.hide-orientation').addClass('display-none')
+        $('.hide-orientation').fadeOut()
+    }
+  })
 
     var socket = io.connect();
 
