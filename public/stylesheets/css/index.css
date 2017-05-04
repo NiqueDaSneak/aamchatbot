@@ -98,9 +98,9 @@ body {
   position: absolute; }
   .hide-orientation img {
     position: fixed;
-    top: 50vh;
-    width: 30vw;
-    left: 35vw; }
+    top: 17vh;
+    width: 60vw;
+    left: 20vw; }
 
 .display-none {
   display: none; }
