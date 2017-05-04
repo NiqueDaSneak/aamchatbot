@@ -26,14 +26,12 @@ $(document).ready(() => {
   }
 
   $(window).on("orientationchange", (event) => {
-    console.log("The orientation has changed!")
+    socket.emit('test', {data: window.orientation})
     if (window.orientation === 90) {
-      // $('.hide-orientation').removeClass('display-none')
       $('.hide-orientation').fadeIn()
     }
 
     if (window.orientation === 0) {
-        // $('.hide-orientation').addClass('display-none')
         $('.hide-orientation').fadeOut()
     }
   })
