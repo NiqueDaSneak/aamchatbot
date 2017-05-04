@@ -77,7 +77,8 @@ body {
   margin: 0;
   background: linear-gradient(#FFFFFF, #F0EDF2);
   font-family: 'Heebo', sans-serif;
-  height: 100vh; }
+  height: 100vh;
+  width: 100vw; }
 
 .cover {
   background-color: black;
