@@ -33,7 +33,7 @@ io.on('connection', (socket) => {
       console.log(data.data);
         switch (data.data) {
 
-            case "Hell Yeah":
+            case "Creative 101":
               socket.emit('botMessage', {
                 data: content[data.data].message
               })
@@ -69,10 +69,8 @@ io.on('connection', (socket) => {
         }
         db.names.save(respondant)
         console.log('Email saved!')
+        socket.emit('botMessage', {data: "thanks. check your email after the presentation to discover more about the creative discipline."})
         socket.emit('botMessage', {data: "*beep beep bi bi boop*"})
-          setTimeout(() => {
-            socket.emit('botMessage', {data: "thanks. check your email after the presentation to discover more about the creative discipline."})
-          }, 1800)
         socket.emit('menuButtons', {data: ["Back to New Hires", "Creative 101"]})
     })
 
