@@ -8,6 +8,7 @@ var fs = require('fs')
 var content = JSON.parse(fs.readFileSync('db/content.json', 'utf8'))
 var db = require('diskdb')
 db.connect('db', ['names', 'option1', 'option2', 'option3'])
+const names = require('./db/names')
 
 app.use(express.static('public'))
 
@@ -16,6 +17,10 @@ app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
     res.render('index')
+})
+
+app.get('/names', (req, res) => {
+  res.json(names)
 })
 
 io.on('connection', (socket) => {
