@@ -25,6 +25,8 @@ input[type='text'] {
   width: 60vw;
   text-align: center;
   box-shadow: inset 5px 4px 5px 0px #D1D0D1; }
+  input[type='text']:focus {
+    outline: none; }
   input[type='text']::-webkit-input-placeholder {
     color: #d1d1d1; }
   input[type='text']:-ms-input-placeholder {
@@ -43,7 +45,19 @@ input[type='text'] {
   width: 100vw; }
 
 .messages {
-  padding-top: 3vh; }
+  padding-top: 3vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
+
+.new-hire-img {
+  width: 62vw;
+  padding-left: 19vw;
+  padding-top: 2vh; }
 
 .bot-message img {
   width: 7vw;
