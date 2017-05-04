@@ -8,15 +8,23 @@
           "options": ["Meet the New Hires", "Creative 101"]
       },
     "Meet the New Hires": {
-        "message": "here are the newest toes. be sure to engage them in small talk over a soft chicken taco after the meeting.",
-        "options": ["Cody Young", "Hannah Miller", "Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor"]
+        "message": "meet your newest toes.",
+        "options": ["Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More"]
     },
     "Back to New Hires": {
-        "message": "here are the newest toes. be sure to engage them in small talk over a soft chicken taco after the meeting.",
-        "options": ["Cody Young", "Hannah Miller", "Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor"]
+      "message": "meet your newest toes.",
+        "options": ["Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More"]
+    },
+    "Back": {
+      "message": "meet your newest toes.",
+        "options": ["Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More"]
+    },
+    "More":{
+      "message": "meet your newest toes.",
+      "options": ["Cody Young", "Hannah Miller", "Sean Cloonan", "Caleb Ritter", "Back"]
     },
     "Creative 101": {
-        "message": "please enter your last name"
+        "message": "provide your last name and I'll send the link...and also not steal your identity."
     },
     "Hell Yeah": {
         "message": "please enter your last name"
@@ -56,6 +64,16 @@
       "gif": "giphy.gif"
     },
     "Andrew Grosvenor": {
+      "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
+      "options": ["Back to New Hires", "Back To Main Menu"],
+      "gif": "giphy.gif"
+    },
+    "Sean Cloonan": {
+      "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
+      "options": ["Back to New Hires", "Back To Main Menu"],
+      "gif": "giphy.gif"
+    },
+    "Caleb Ritter": {
       "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
       "options": ["Back to New Hires", "Back To Main Menu"],
       "gif": "giphy.gif"
