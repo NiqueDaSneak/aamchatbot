@@ -23,8 +23,7 @@ input[type='text'] {
   border-radius: 8vw;
   transition: bottom .8s;
   width: 60vw;
-  text-align: center;
-  box-shadow: inset 5px 4px 5px 0px #D1D0D1; }
+  text-align: center; }
   input[type='text']:focus {
     outline: none; }
   input[type='text']::-webkit-input-placeholder {
@@ -42,7 +41,8 @@ input[type='text'] {
   transition: right .3s; }
 
 .header {
-  width: 100vw; }
+  width: 100vw;
+  height: 12vh; }
 
 .messages {
   padding-top: 3vh;
