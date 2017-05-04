@@ -55,18 +55,18 @@
     },
     "Mack Favors": {
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "mack.jpg"
     },
     "Andrew Grosvenor": {
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "andrew.jpg"
     },
     "Sean Cloonan": {
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "sean.jpg"
     },
     "Caleb Ritter": {
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "caleb.jpg"
     }
 }
