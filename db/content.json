@@ -16,8 +16,7 @@
         "options": ["Cody Young", "Hannah Miller", "Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor"]
     },
     "Creative 101": {
-        "message": "would you like to learn more about the creative discipline?",
-        "options": ["Hell Yeah", "Nope I Am Good"]
+        "message": "please enter your last name"
     },
     "Hell Yeah": {
         "message": "please enter your last name"
@@ -29,27 +28,27 @@
     "Cody Young": {
       "message": "say hello to cody young.  catch him tossing a ball at a hoop on sundays.",
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "cody.jpg"
     },
     "Hannah Miller": {
       "message": "this is hannah miller. don’t be chicken, set up a 1:1. ",
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "hannah.jpg"
     },
     "Christian Jaekle": {
       "message": "introduce yourself to christian jaekle. catch his next startup idea at the water cooler.",
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "christian.jpg"
     },
     "Cynthia Marcinek": {
       "message": "this is cynthia marcinek. did you know femurs are 65x stronger than concrete?",
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "cynthia.jpg"
     },
     "Alyssa Benson": {
       "message": "say hi to alyssa benson. she is one of our design team’s rising stars.",
       "options": ["Back to New Hires", "Back To Main Menu"],
-      "gif": "giphy.gif"
+      "gif": "alyssa.jpg"
     },
     "Mack Favors": {
       "message": "Say hi to Alyssa Benson. She's one of our design team's rising stars.",
