@@ -26,7 +26,6 @@ $(document).ready(() => {
   }
 
   $(window).on("orientationchange", (event) => {
-    socket.emit('test', {data: window.orientation})
     if (window.orientation === 90) {
       $('.hide-orientation').fadeIn()
     }

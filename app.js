@@ -26,10 +26,6 @@ app.get('/names', (req, res) => {
 io.on('connection', (socket) => {
     console.log('Socket w/ client successful')
 
-    socket.on('test', (data) => {
-      console.log(data.data);
-    })
-
     socket.on('welcomeMessage', () => {
         socket.emit('botMessage', {data: content.welcomeMessage.message})
         var menuButtons = function() {
