@@ -53,9 +53,11 @@ io.on('connection', (socket) => {
                 console.log('you clicked a person!')
                 socket.emit('gif', {data: content[data.data].gif})
               }
-              socket.emit('botMessage', {
-                data: content[data.data].message
-              })
+              if (content[data.data].message) {
+                socket.emit('botMessage', {
+                  data: content[data.data].message
+                })
+              }
               socket.emit('menuButtons', {
                 data: content[data.data].options
               })
