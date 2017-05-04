@@ -20,7 +20,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/names', (req, res) => {
-  res.json(names)
+  res.render('names', { names: db.names.find() })
 })
 
 io.on('connection', (socket) => {
