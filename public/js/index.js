@@ -44,7 +44,7 @@ $(document).ready(() => {
       $('.messages').prepend("<img class='new-hire-img' src='imgs/" + data.data + "' alt='GIF'>")
     })
 
-    $('.btns').click(() => {
+    $('.btns').click(( event ) => {
         if (event.target.value === "Creative 101") {
             socket.emit('menuRequest', {data: event.target.value})
             $('input').css('bottom', '2vh').promise().done(() => {
