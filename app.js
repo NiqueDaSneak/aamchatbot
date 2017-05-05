@@ -35,7 +35,6 @@ io.on('connection', (socket) => {
     })
 
     socket.on('menuRequest', (data) => {
-      console.log(data.data);
         switch (data.data) {
 
             case "Creative 101":
@@ -55,7 +54,6 @@ io.on('connection', (socket) => {
 
             default:
               if (content[data.data].gif) {
-                console.log('you clicked a person!')
                 socket.emit('gif', {data: content[data.data].gif})
               }
               if (content[data.data].message) {
@@ -75,7 +73,6 @@ io.on('connection', (socket) => {
             saved: new Date()
         }
         db.names.save(respondant)
-        console.log('Email saved!')
         socket.emit('botMessage', {data: "thanks. check your email after the presentation to discover more about the creative discipline."})
         socket.emit('botMessage', {data: "*beep beep bi bi boop*"})
         socket.emit('menuButtons', {data: ["Back to New Hires", "Creative 101"]})
