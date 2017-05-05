@@ -9,19 +9,19 @@
       },
     "Meet the New Hires": {
         "message": "meet your newest toes.",
-        "options": ["Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More"]
+        "options": ["Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More", "Back To Main Menu"]
     },
     "Back to New Hires": {
       "message": "meet your newest toes.",
-        "options": ["Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More"]
+        "options": ["Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More", "Back To Main Menu"]
     },
     "Back": {
       "message": "meet your newest toes.",
-        "options": ["Christian Jaekle", "Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More"]
+        "options": ["Cynthia Marcinek", "Alyssa Benson", "Mack Favors", "Andrew Grosvenor", "More", "Back To Main Menu"]
     },
     "More":{
       "message": "meet your newest toes.",
-      "options": ["Cody Young", "Hannah Miller", "Sean Cloonan", "Caleb Ritter", "Back"]
+      "options": ["Christian Jaekle", "Cody Young", "Hannah Miller", "Sean Cloonan", "Caleb Ritter", "Back", "Back To Main Menu"]
     },
     "Creative 101": {
         "message": "provide your last name and I'll send the link...and also not steal your identity."
